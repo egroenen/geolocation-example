@@ -1,0 +1,30 @@
+#OSX-specific exclusions
+.[dD][sS]_[sS]tore
+
+#Sublime nature exclusions
+*.sublime-workspace
+*.sublime-project
+*.sublime-settings
+/config/
+
+#Visual Studio Code nature exclusions
+.vscode/
+
+#NPM/Grunt nature
+/node_modules/
+/deployTemp/
+/deployTmp/
+/deploymentTemp/
+/retrievetmp/
+#Misc exclusions
+*.sh
+*.iml
+*.orig
+mm.log
+.credentials
+
+#MavensMate exclusions
+/src/staticresources/
+
+# SFDX
+.sfdx
